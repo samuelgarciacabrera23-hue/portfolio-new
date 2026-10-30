@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samuel García Cabrera · Portfolio</title>
+<meta name="description" content="Portfolio de Samuel García Cabrera, estudiante de CFGM Sistemas Microinformáticos y Redes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#inicio">Samuel García</a>
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#curriculum">Currículum</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <img class="foto" src="foto.jpg" alt="Retrato de Samuel García Cabrera" width="200" height="200">
+  <div>
+    <h1>Samuel<br><span>García Cabrera</span></h1>
+    <p class="role">Estudiante de CFGM Sistemas Microinformáticos y Redes</p>
+    <p class="actions">
+      <a class="btn" href="CV_Samuel_Garcia_Cabrera.pdf" download>Descargar CV (PDF)</a>
+      <a class="btn ghost" href="#contacto">Contactar</a>
+    </p>
+  </div>
+</section>
+
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <div class="two">
+    <p>Soy una persona organizada y responsable, con ganas de empezar mi trayectoria profesional. Estudio el ciclo de grado medio de Sistemas Microinformáticos y Redes en San Juan Bosco, y he trabajado con equipos y redes reales durante mis prácticas en la Fundación FEMEPA.</p>
+    <p>Busco una oportunidad laboral para aportar lo que he aprendido y seguir creciendo. Tengo disponibilidad para trasladarme a Olmedo (Valladolid).</p>
+  </div>
+</section>
+
+<section id="curriculum">
+  <h2>Currículum</h2>
+  <div class="timeline">
+    <article>
+      <time>Abr 2026 – Jun 2026</time>
+      <h3>Técnico microinformático</h3>
+      <p class="org">Fundación FEMEPA · Contrato de prácticas</p>
+      <p>Configuración de switches, routers, firewalls y VPNs. Instalación y mantenimiento de equipos informáticos.</p>
+    </article>
+    <article>
+      <time>Sep 2025 – Actualidad</time>
+      <h3>CFGM Sistemas Microinformáticos y Redes</h3>
+      <p class="org">CPEIPS San Juan Bosco · Las Palmas de Gran Canaria</p>
+    </article>
+    <article>
+      <time>2021 – 2025</time>
+      <h3>Educación Secundaria Obligatoria (ESO)</h3>
+      <p class="org">IES El Batán · Las Palmas de Gran Canaria</p>
+    </article>
+  </div>
+  <p><a class="btn" href="CV_Samuel_Garcia_Cabrera.pdf" download>Descargar CV completo (PDF)</a></p>
+</section>
+
+<section id="proyectos">
+  <h2>Proyectos</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Prácticas en FEMEPA</h3>
+      <p>Configuración de switches, routers, firewalls y VPNs, e instalación y mantenimiento de equipos en un entorno profesional.</p>
+      <p class="tags"><span>Redes</span><span>Firewalls</span><span>VPN</span></p>
+    </article>
+    <article class="card">
+      <h3>Proyecto ERASMUS+</h3>
+      <p>Voluntario y participante en el proyecto europeo del IES El Batán, con intercambio entre Las Palmas de Gran Canaria y Francia (2025–2026).</p>
+      <p class="tags"><span>Voluntariado</span><span>Europa</span></p>
+    </article>
+    <article class="card empty">
+      <h3>Tu próximo proyecto</h3>
+      <p>Aquí puedes añadir un laboratorio de redes, el montaje de un PC o cualquier práctica del ciclo. Edita este bloque en <code>index.html</code>.</p>
+    </article>
+  </div>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <div class="two">
+    <div>
+      <h3>Técnicas</h3>
+      <ul class="chips">
+        <li>Montaje y mantenimiento de PCs</li><li>Redes locales</li>
+        <li>Switches y routers</li><li>Firewalls y VPNs</li>
+      </ul>
+      <h3>Herramientas</h3>
+      <ul class="chips">
+        <li>Microsoft Word</li><li>Microsoft Excel</li><li>Microsoft PowerPoint</li>
+        <li>Google Drive</li><li>Google Docs</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Idiomas</h3>
+      <div class="lang"><span>Español</span><div class="bar"><i style="width:100%"></i></div><small>Lengua materna</small></div>
+      <div class="lang"><span>Inglés</span><div class="bar"><i style="width:33%"></i></div><small>A2 · Básico</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="two">
+    <div>
+      <p>¿Tienes una oferta o quieres saber más? Escríbeme y te respondo lo antes posible.</p>
+      <p><a href="mailto:samuelgarciacabrera32@gmail.com">samuelgarciacabrera32@gmail.com</a><br>
+         <a href="tel:+34682047008">682 04 70 08</a></p>
+    </div>
+    <form id="form" novalidate>
+      <label>Nombre <input name="nombre" required autocomplete="name"></label>
+      <label>Tu email <input name="email" type="email" required autocomplete="email"></label>
+      <label>Mensaje <textarea name="mensaje" rows="4" required></textarea></label>
+      <button class="btn" type="submit">Enviar mensaje</button>
+      <p id="estado" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="anio"></span> Samuel García Cabrera</footer>
+<script src="script.js"></script>
+</body>
+</html>
